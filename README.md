@@ -3,7 +3,7 @@
 Code for binary classification of **constructive** vs **non-constructive** comments on Japanese YouTube Shorts.
 
 **Paper:** TBD  
-**Data (Hugging Face):** TBD — [`data/README.md`](data/README.md)
+**Data (Hugging Face):** [nlp-hayashi/japanese-youtube-constructive-comments](https://huggingface.co/datasets/nlp-hayashi/japanese-youtube-constructive-comments) — see also [`data/README.md`](data/README.md)
 
 ## Citation
 
@@ -34,7 +34,7 @@ export OUTPUT_DIR=$(pwd)/outputs
 ## 1. Download labels
 
 ```bash
-huggingface-cli download YOUR_ORG/YOUR_DATASET --local-dir ./data
+huggingface-cli download nlp-hayashi/japanese-youtube-constructive-comments --repo-type dataset --local-dir ./data
 ```
 
 See `data/README.md` for file names.

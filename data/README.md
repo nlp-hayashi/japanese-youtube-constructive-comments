@@ -2,7 +2,8 @@
 
 Human labels for constructive vs non-constructive comments on Japanese YouTube Shorts.
 
-**Paper / Hugging Face URL:** TBD (dataset card will mirror this file).
+**Hugging Face:** [nlp-hayashi/japanese-youtube-constructive-comments](https://huggingface.co/datasets/nlp-hayashi/japanese-youtube-constructive-comments)  
+**Paper:** TBD
 
 ## Record fields
 
