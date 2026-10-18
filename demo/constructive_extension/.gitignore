@@ -1,0 +1,17 @@
+# Model weights (too large for GitHub; share via Drive / Release)
+models/best/*.safetensors
+models/best/*.bin
+models/best/training_args.bin
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

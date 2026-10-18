@@ -1,0 +1,31 @@
+# Data & large artifacts (host on Zenodo / Hugging Face / release bundle)
+# Local copies of HF data (do not commit)
+data/*
+!data/README.md
+!data/LICENSE
+
+# Checkpoints and run artifacts (created on train/eval)
+outputs/
+# Model weights
+**/best/*.safetensors
+**/best/*.bin
+**/best/pytorch_model.bin
+demo/constructive_extension/models/best/*.safetensors
+demo/constructive_extension/models/best/*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Raw crawl (never commit)
+*.jsonl.gz
+Youtube.zip
+*.zip

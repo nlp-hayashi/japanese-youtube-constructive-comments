@@ -1,0 +1,57 @@
+#constructive-al-panel {
+  position: fixed;
+  top: 80px;
+  right: 16px;
+  z-index: 99999;
+  font-family: system-ui, sans-serif;
+  font-size: 13px;
+  background: #212121;
+  color: #eee;
+  padding: 10px 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  max-width: 220px;
+}
+#constructive-al-panel .constructive-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: -10px -12px 8px;
+  padding: 8px 12px;
+  border-radius: 8px 8px 0 0;
+  cursor: grab;
+  user-select: none;
+  touch-action: none;
+}
+#constructive-al-panel .constructive-panel-header.dragging {
+  cursor: grabbing;
+}
+#constructive-al-panel .constructive-drag-hint {
+  opacity: 0.45;
+  font-size: 12px;
+  letter-spacing: -2px;
+  line-height: 1;
+}
+#constructive-al-panel button {
+  display: block;
+  width: 100%;
+  margin: 6px 0;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background: #3ea6ff;
+  color: #0f0f0f;
+  font-weight: 600;
+}
+#constructive-al-panel button.secondary {
+  background: #3f3f3f;
+  color: #eee;
+}
+#constructive-al-panel .status {
+  margin-top: 8px;
+  font-size: 11px;
+  color: #aaa;
+  word-break: break-all;
+}
